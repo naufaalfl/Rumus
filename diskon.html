@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let curos=7000
+        let usus=5000
+        let angkringan=9000
+        let TotalHarga= curos + usus + angkringan
+
+        if (TotalHarga > 100000){
+            let Diskon=10/100 * TotalHarga;
+            let SetelahDiskon= TotalHarga - Diskon;
+            console.log ("total setelah diskon" + SetelahDiskon)
+        }
+
+        else{
+            console.log ("ga dapet wlee" +TotalHarga)
+        }
+    </script>
+</body>
+</html>
